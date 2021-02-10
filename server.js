@@ -17,7 +17,7 @@ app.use(require("./routes/apiroutes"));
 
 //error is popping on node side about DeprecationWarning.
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true }, { useUnifiedTopology: true },
-// adding to connect to MongoDB atlas
+// adding to connect to MongoDB Atlas
 
 {
     useNewUrlParser: true,
