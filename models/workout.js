@@ -7,7 +7,7 @@ const workoutSchema = new Schema({
         type: Date,
         default: new Date().setDate(new Date().getDate())
     },
-    //pulls exercise array
+    //pulls exercise array to display exercises data.
     exercises: Array 
 }) 
 
